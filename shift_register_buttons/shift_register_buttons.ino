@@ -49,10 +49,6 @@ void loop() {
     delay(50);
   }
   lastDownButtonState = downButtonState;
-/////////////////////////////////////////////////////////////////////////
-  int servoSpeed = map(buttonCounter, 0, 9, 90, 180);
-  myServo.write(servoSpeed);
-  delay(15);
 }
 
 void updateDisplay(int displayInt){//Writes to the display
